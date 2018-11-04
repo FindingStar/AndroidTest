@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClientActivity">
+
+    <Button
+        android:id="@+id/button_thread_extend_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继承Thread类启动线程"/>
+
+    <Button
+        android:id="@+id/button_thread_achieve_runnable"
+        android:text="实现runnable接口启动线程"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/button_runnable_with_handler"
+        android:text="通过handler。post 启动线程"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/button_async_task"
+        android:text="通过aysnctask  启动线程"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/button_handlerthread"
+        android:text="通过继承HandlerThread  启动线程"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
